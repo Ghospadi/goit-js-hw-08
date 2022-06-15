@@ -17,5 +17,4 @@ player.on(
 const catcher = localStorage.getItem('videoplayer-current-time');
 if (catcher !== null) {
   player.setCurrentTime(catcher);
-  localStorage.removeItem('videoplayer-current-time');
 }
